@@ -19,7 +19,7 @@
 ### [株式会社リードエッジコンサルティング](https://corp.leadedge-c.com/)
 - 職種: インターン/ブロックチェーンエンジニア
 - 期間: 2021/9 ~ 2022/2
-- 内容: NFTのサブスク機能におけるスマートコントラクトの開発やMaticのFaucetを含むweb3ツールの開発に従事。
+- 内容: NFTのサブスクサービスにおけるスマートコントラクトの開発や、MaticのFaucetを含むweb3ツールの開発に従事。
 
 ### [ヤフー株式会社](https://about.yahoo.co.jp/)
 - 職種: インターン/データサイエンティスト
@@ -29,7 +29,7 @@
 ### [株式会社プラチナエッグ](https://www.platinum-egg.com/)
 - 職種: インターン/ブロックチェーンエンジニア
 - 期間: 2022/6 ~ 2022/3
-- 内容: 複数のブロックチェーンゲーム開発プロジェクトに参画。ERC721を中心にスマートコントラクトの開発に従事。
+- 内容: 複数のブロックチェーンゲーム開発プロジェクトに参画。ERC721、ERC20を中心にスマートコントラクトの開発に従事。
 - Teaser site: [Climbers](https://climbers.show/)
 
 
@@ -37,10 +37,10 @@
 ### Prediction of class A GPCRs and olfactory receptor activity
 ![helixencoder](img/he.png)
 
-Olfactory receptors are a type of G protein-coupled receptor (GPCR) that are expressed in the olfactory epithelium and deeply involved in the perception of odors. Discovering ligands for olfactory receptors contributes to understanding the mechanisms of olfactory perception and drug development targeting these receptors. Biological experiments and computer-based activity prediction studies have been conducted to achieve this. However, most olfactory receptors are orphan receptors, meaning their ligands are largely unknown, and the lack of sufficient data poses a bottleneck for achieving accurate activity prediction. GPCRs are classified into six classes, from class A to class F, based on their structural and functional differences. Olfactory receptors belong to class A GPCRs, which includes rhodopsin and adrenaline receptors, and their ligand binding sites are known to reside in the transmembrane region. Therefore, it is believed that by using activity information from compounds that bind to class A GPCRs with the same binding site as olfactory receptors, the problem of insufficient activity information for olfactory receptors can be addressed, resulting in more accurate predictions. In this study, a protein sequence encoder specialized for class A GPCRs called the Helix encoder was constructed. The pre-training of an activity prediction model was performed using data from class A GPCRs, followed by fine-tuning using olfactory receptor data, aiming to improve the accuracy of activity prediction.
+Olfactory receptors are a type of G protein-coupled receptor (GPCR) that is expressed in the olfactory epithelium and closely associated with the perception of odors. Discovering ligands for olfactory receptors has contributed to unraveling the mechanisms of olfactory perception and has potential implications for drug discovery targeting these receptors. Biological experiments and computational studies for activity prediction have been conducted thus far. To address the challenge of insufficient data for olfactory receptors, this study focused on class A GPCRs and developed a specialized protein sequence encoder called the Helix encoder. Pre-training of the activity prediction model was performed using data from class A GPCRs, followed by fine-tuning using olfactory receptor data, with the aim of improving the accuracy of activity prediction.
 ### Publications
 1. Haruki Yamane and Takashi Ishida. [Helix encoder: a compound-protein interaction prediction model specifically designed for class A GPCRs](https://doi.org/10.3389/fbinf.2023.1193025). [Frontiers in Bioinformatics](https://www.frontiersin.org/journals/bioinformatics), Vol. 3, 2023.
-2. Haruki Yamane and Takashi Ishida. [Prediction of class A GPCR-Compound interactions by deep learning focusing on ligand binding site protein sequences](https://cbi-society.org/taikai/taikai22/poster_oral/p_abstract_cbi2022.pdf"). [Chem-Bio Informatics Society(CBI) Annual Meeting 2022, Oct](https://cbi-society.org/taikai/taikai22/index.html).
+2. Haruki Yamane and Takashi Ishida. [Prediction of class A GPCR-Compound interactions by deep learning focusing on ligand binding site protein sequences](https://cbi-society.org/taikai/taikai22/poster_oral/p_abstract_cbi2022.pdf). [Chem-Bio Informatics Society(CBI) Annual Meeting 2022, Oct](https://cbi-society.org/taikai/taikai22/index.html).
 3. 山根 永暉, 石田 貴士. [クラスA Gタンパク質共役受容体専用エンコーダを用いたタンパク質ー化合物相互作用予測](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=216913&item_no=1&page_id=13&block_id=8). [第69回バイオ情報学(SIGBIO)研究会](https://www.ipsj.or.jp/kenkyukai/event/bio69.html).
 
 # Development
