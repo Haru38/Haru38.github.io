@@ -34,7 +34,7 @@
 
 
 # Research
-### Prediction of class A GPCRs and olfactory receptor activity
+### Prediction of class A GPCRs and olfactory receptors activity
 ![helixencoder](img/he.png)
 
 Olfactory receptors are a type of G protein-coupled receptor (GPCR) that is expressed in the olfactory epithelium and closely associated with the perception of odors. Discovering ligands for olfactory receptors has contributed to unraveling the mechanisms of olfactory perception and has potential implications for drug discovery targeting these receptors. Biological experiments and computational studies for activity prediction have been conducted thus far. To address the challenge of insufficient data for olfactory receptors, this study focused on class A GPCRs and developed a specialized protein sequence encoder called the Helix encoder. Pre-training of the activity prediction model was performed using data from class A GPCRs, followed by fine-tuning using olfactory receptor data, with the aim of improving the accuracy of activity prediction.
