@@ -8,7 +8,7 @@
 - 2021/4 ~ 2023/3: 東京工業大学大学院 情報理工学院 情報工学系 知能情報コース
 - 2023/4 ~ : 都内某企業にてデータサイエンティストとして活動
 
-## Actibity
+## Activity
 - [Atcoder account](https://atcoder.jp/users/haruYama38)
 - [kaggle account](https://www.kaggle.com/yamane38)
 
