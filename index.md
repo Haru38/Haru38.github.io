@@ -1,14 +1,16 @@
 # 山根 永暉
 
 大学・大学院で情報工学を専攻し、現在はデータサイエンティストとして活動しております。
-研究では生命データを用いた機械学習の応用研究を行い、compound-Protein interaction (CPI)予測の深層学習モデルの開発を行いました。
-また、2021年からはブロックチェーンエンジニアとして活動し、主にNFTに関するサービスのスマートコントラクトの開発を行っております。
 
 ## Career
 
 - 2017/4 ~ 2021/3: 東京工業大学 情報理工学院 情報工学系
->サークル: 学園祭実行委員会 (渉外担当)
 - 2021/4 ~ 2023/3: 東京工業大学大学院 情報理工学院 情報工学系 知能情報コース
+- 2023/4 ~ : 都内某企業にてデータサイエンティストとして活動
+
+## ACctibity
+- Atcoder: https://atcoder.jp/users/haruYama38
+- kaggle: https://www.kaggle.com/yamane38
 
 ## Works
 ### [株式会社サイシード](https://sciseed.jp/)
@@ -30,7 +32,6 @@
 - 職種: インターン/ブロックチェーンエンジニア
 - 期間: 2022/6 ~ 2023/3
 - 内容: 複数のブロックチェーンゲーム開発プロジェクトに参画。ERC721、ERC20を中心にスマートコントラクトの開発に従事。
-- Teaser site: [Climbers](https://climbers.show/)
 
 
 ## Research
@@ -47,6 +48,6 @@ Olfactory receptors are a type of G protein-coupled receptor (GPCR) that is expr
 ### PrimeNumberLoot
 ![pnl](img/pnl.png)
 
-- 「素数」という数字データのNFT化を目的とした独自スマートコントラクトを構築し、Ethereumにてデプロイを行いました。
+- 独自スマートコントラクトを構築し、Ethereumにてデプロイを行いました。
 - [OpenSea Page](https://opensea.io/collection/primenumberloot)
 - [Github](https://github.com/Haru38/PrimeNumberLoot)
