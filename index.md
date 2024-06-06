@@ -9,8 +9,8 @@
 - 2023/4 ~ : 都内某企業にてデータサイエンティストとして活動
 
 ## Actibity
-- Atcoder: https://atcoder.jp/users/haruYama38
-- kaggle: https://www.kaggle.com/yamane38
+- [Atcoder account](https://atcoder.jp/users/haruYama38)
+- [kaggle account](https://www.kaggle.com/yamane38)
 
 ## Research
 ### Prediction of class A GPCRs and olfactory receptors activity
