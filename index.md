@@ -8,10 +8,6 @@
 - 2021/4 ~ 2023/3: 東京工業大学大学院 情報理工学院 情報工学系 知能情報コース
 - 2023/4 ~ : 都内某企業にてデータサイエンティストとして活動
 
-## Activity
-- [Atcoder account](https://atcoder.jp/users/haruYama38)
-- [kaggle account](https://www.kaggle.com/yamane38)
-
 ## Research
 ### Prediction of class A GPCRs and olfactory receptors activity
 ![helixencoder](img/he.png)
@@ -42,6 +38,11 @@ Olfactory receptors are a type of G protein-coupled receptor (GPCR) that is expr
 - 職種: インターン/ブロックチェーンエンジニア
 - 期間: 2022/6 ~ 2023/3
 - 内容: 複数のブロックチェーンゲーム開発プロジェクトに参画。ERC721、ERC20を中心にスマートコントラクトの開発に従事。
+
+
+## Activity
+- [Atcoder account](https://atcoder.jp/users/haruYama38)
+- [kaggle account](https://www.kaggle.com/yamane38)
 
 ## Development
 ### PrimeNumberLoot
