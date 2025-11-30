@@ -40,10 +40,6 @@ Olfactory receptors are a type of G protein-coupled receptor (GPCR) that is expr
 - 内容: 複数のブロックチェーンゲーム開発プロジェクトに参画。ERC721、ERC20を中心にスマートコントラクトの開発に従事。
 
 
-## Activity
-- [Atcoder account](https://atcoder.jp/users/haruYama38)
-- [kaggle account](https://www.kaggle.com/yamane38)
-
 ## Development
 ### PrimeNumberLoot
 ![pnl](img/pnl.png)
