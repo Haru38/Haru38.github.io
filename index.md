@@ -24,12 +24,12 @@ Olfactory receptors are a type of G protein-coupled receptor (GPCR) that is expr
 - 期間: 2019/4 ~ 2021/3
 - 内容: 電光掲示板に表示される3Dキャラクターを用いた警備システムの開発プロジェクトに参画。物体認識及びトラッキングモデルの開発に従事。
 
-### [株式会社リードエッジコンサルティング](https://corp.leadedge-c.com/)
+### [株式会社リードエッジコンサルティング]([https://corp.leadedge-c.com/](https://leadedge-c.com/))
 - 職種: インターン/ブロックチェーンエンジニア
 - 期間: 2021/9 ~ 2022/2
 - 内容: NFTのサブスクサービスにおけるスマートコントラクトの開発や、MaticのFaucetを含むweb3ツールの開発に従事。
 
-### [ヤフー株式会社](https://about.yahoo.co.jp/)
+### ヤフー株式会社
 - 職種: インターン/データサイエンティスト
 - 期間: 2021/10
 - 内容: 検索システムにおけるサジェスト機能に使用されるリランキングモデルの開発に従事。
