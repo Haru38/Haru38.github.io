@@ -19,7 +19,7 @@
 
 ## 🛠 Skills
 | Category | Technologies |
-|:---|:---|
+| :--- | :--- |
 | **Data Science** | `Python` `PyTorch` `Scikit-learn` `Pandas` `R` `SQL` |
 | **Blockchain** | `Solidity` `Hardhat` `Ethers.js` `ERC721/20` `OpenZeppelin` |
 | **Other** | `Docker` `Git` `AWS` `Linux` |
