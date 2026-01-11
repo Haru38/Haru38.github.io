@@ -41,19 +41,25 @@
   <div style="border: 1px solid rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; background: rgba(255,255,255,0.02);">
     <h4 style="margin-top:0;">🤖 株式会社サイシード</h4>
     <small>2019/4 ~ 2021/3 | エンジニア</small>
-    <p style="font-size: 0.85em;">3Dキャラクターを用いた警備システムの開発。物体認識及びトラッキングモデルの開発に従事。</p>
+    <p style="font-size: 0.85em;">電光掲示板に表示される3Dキャラクターを用いた警備システムの開発プロジェクトに参画。物体認識及びトラッキングモデルの開発に従事。</p>
   </div>
 
   <div style="border: 1px solid rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; background: rgba(255,255,255,0.02);">
-    <h4 style="margin-top:0;">⛓️ プラチナエッグ</h4>
-    <small>2022/6 ~ 2023/3 | BCエンジニア</small>
-    <p style="font-size: 0.85em;">複数のブロックチェーンゲーム開発に参画。ERC721/20を中心にスマートコントラクトを開発。</p>
+    <h4 style="margin-top:0;">⛓️ 株式会社リードエッジコンサルティング</h4>
+    <small>2021/9 ~ 2022/2 | BCエンジニア</small>
+    <p style="font-size: 0.85em;">NFTのサブスクサービスにおけるスマートコントラクトの開発や、MaticのFaucetを含むweb3ツールの開発に従事。</p>
   </div>
 
   <div style="border: 1px solid rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; background: rgba(255,255,255,0.02);">
     <h4 style="margin-top:0;">🔍 ヤフー株式会社</h4>
     <small>2021/10 | データサイエンティスト</small>
-    <p style="font-size: 0.85em;">検索システムのサジェスト機能におけるリランキングモデルの開発に従事。</p>
+    <p style="font-size: 0.85em;">検索システムにおけるサジェスト機能に使用されるリランキングモデルの開発に従事。</p>
+  </div>
+
+  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; background: rgba(255,255,255,0.02);">
+    <h4 style="margin-top:0;">🎮 株式会社プラチナエッグ</h4>
+    <small>2022/6 ~ 2023/3 | BCエンジニア</small>
+    <p style="font-size: 0.85em;">複数のブロックチェーンゲーム開発プロジェクトに参画。ERC721、ERC20を中心にスマートコントラクトの開発に従事。</p>
   </div>
 
 </div>
@@ -70,3 +76,10 @@
     <a href="https://github.com/Haru38/PrimeNumberLoot">GitHub</a>
   </div>
 </div>
+
+---
+
+## 🏛 Career
+* **2017/4 ~ 2021/3**: 東京工業大学 情報理工学院 情報工学系
+* **2021/4 ~ 2023/3**: 東京工業大学大学院 情報理工学院 情報工学系 知能情報コース
+* **2023/4 ~**: 都内某企業にてデータサイエンティストとして活動
