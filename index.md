@@ -1,10 +1,9 @@
-<div style="display: flex; align-items: center; gap: 25px; margin-bottom: 40px; background: rgba(255,255,255,0.05); padding: 25px; border-radius: 30px; border: 1px solid rgba(255,255,255,0.1);">
-  <img src="img/profile.jpg" width="120" style="border-radius: 50%; border: 3px solid #00d4ff; box-shadow: 0 0 20px rgba(0,212,255,0.5);">
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <img src="img/profile.jpg" width="120" style="border-radius: 50%; border: 2px solid #00d4ff; box-shadow: 0 0 15px rgba(0,212,255,0.3);">
   <div>
-    <h2 style="margin: 0; font-size: 1.5em; background: linear-gradient(to right, #fff, #00d4ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Haruki Yamane</h2>
-    <p style="margin: 5px 0; color: #00d4ff; font-weight: bold;">データサイエンティスト / ブロックチェーンエンジニア</p>
-    <p style="font-size: 0.9em; margin-bottom: 10px;">大学・大学院で情報工学を専攻し、現在はLINEヤフーでDSとして活動中。</p>
-    <a href="https://github.com/Haru38" style="background: #24292e; color: #fff; padding: 5px 15px; border-radius: 20px; font-size: 0.8em; text-decoration: none; border: 1px solid #444;">GitHub Profile</a>
+    <strong>データサイエンティスト / ブロックチェーンエンジニア</strong><br>
+    大学・大学院で情報工学を専攻し、現在はデータサイエンティストとして活動しております。<br>
+    <a href="https://github.com/Haru38">GitHub</a>
   </div>
 </div>
 
