@@ -49,43 +49,27 @@
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px;">
 
   <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02);">
-    <h4 style="margin-top:0; color: #00d4ff;">[株式会社サイシード](https://sciseed.jp/)</h4>
+    <h4 style="margin-top:0;"><a href="https://sciseed.jp/">株式会社サイシード</a></h4>
     <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/エンジニア | <b>期間:</b> 2019/4 ~ 2021/3</p>
     <p style="font-size: 0.9em;">電光掲示板に表示される3Dキャラクターを用いた警備システムの開発プロジェクトに参画。物体認識及びトラッキングモデルの開発に従事。</p>
   </div>
 
   <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02);">
-    <h4 style="margin-top:0; color: #00d4ff;">[株式会社リードエッジコンサルティング](https://leadedge-c.com/)</h4>
+    <h4 style="margin-top:0;"><a href="https://leadedge-c.com/">株式会社リードエッジコンサルティング</a></h4>
     <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/ブロックチェーンエンジニア | <b>期間:</b> 2021/9 ~ 2022/2</p>
     <p style="font-size: 0.9em;">NFTのサブスクサービスにおけるスマートコントラクトの開発や、MaticのFaucetを含むweb3ツールの開発に従事。</p>
   </div>
 
   <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02);">
-    <h4 style="margin-top:0; color: #00d4ff;">ヤフー株式会社</h4>
+    <h4 style="margin-top:0;">ヤフー株式会社</h4>
     <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/データサイエンティスト | <b>期間:</b> 2021/10</p>
     <p style="font-size: 0.9em;">検索システムにおけるサジェスト機能に使用されるリランキングモデルの開発に従事。</p>
   </div>
 
   <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02);">
-    <h4 style="margin-top:0; color: #00d4ff;">[株式会社プラチナエッグ](https://www.platinum-egg.com/)</h4>
+    <h4 style="margin-top:0;"><a href="https://www.platinum-egg.com/">株式会社プラチナエッグ</a></h4>
     <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/ブロックチェーンエンジニア | <b>期間:</b> 2022/6 ~ 2023/3</p>
     <p style="font-size: 0.9em;">複数のブロックチェーンゲーム開発プロジェクトに参画。ERC721、ERC20を中心にスマートコントラクトの開発に従事。</p>
   </div>
 
-</div>
-
----
-
-## 🚀 Development
-
-### PrimeNumberLoot
-<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
-  <img src="img/pnl.png" width="180" style="border-radius: 8px;">
-  <div style="flex: 1; min-width: 250px;">
-    <ul style="font-size: 0.95em; margin-top: 0;">
-      <li>独自スマートコントラクトを構築し、Ethereumにてデプロイを行いました。</li>
-      <li><a href="https://opensea.io/collection/primenumberloot">OpenSea Page</a></li>
-      <li><a href="https://github.com/Haru38/PrimeNumberLoot">Github</a></li>
-    </ul>
-  </div>
 </div>
