@@ -34,18 +34,18 @@
 ---
 
 ## 🛠 Skills
-<div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 20px;">
-  <div style="margin-bottom: 10px;">
-    <strong style="color: #00d4ff;">Data Science:</strong><br>
-    <code>Python</code> <code>PyTorch</code> <code>Scikit-learn</code> <code>Pandas</code> <code>R</code> <code>SQL</code>
+<div style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); padding: 20px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 20px;">
+  <div style="margin-bottom: 15px;">
+    <strong style="color: #00d4ff; font-size: 1.1em;">📊 Data Science</strong><br>
+    <code>Python</code> <code>PyTorch</code> <code>TensorFlow</code> <code>Keras</code> <code>PySpark</code> <code>Trino</code> <code>Scikit-learn</code> <code>Pandas</code> <code>SQL</code>
   </div>
-  <div style="margin-bottom: 10px;">
-    <strong style="color: #00d4ff;">Blockchain:</strong><br>
-    <code>Solidity</code> <code>Hardhat</code> <code>Ethers.js</code> <code>ERC721/20</code> <code>OpenZeppelin</code>
+  <div style="margin-bottom: 15px;">
+    <strong style="color: #00d4ff; font-size: 1.1em;">⛓️ Blockchain</strong><br>
+    <code>Solidity</code> <code>Web3.js</code> <code>Hardhat</code> <code>Ethers.js</code> <code>ERC721/20</code> <code>OpenZeppelin</code>
   </div>
   <div>
-    <strong style="color: #00d4ff;">Other:</strong><br>
-    <code>Docker</code> <code>Git</code> <code>AWS</code> <code>Linux</code>
+    <strong style="color: #00d4ff; font-size: 1.1em;">💻 Software & Infra</strong><br>
+    <code>Node.js</code> <code>Java</code> <code>Spring Boot</code> <code>Docker</code> <code>Kubernetes</code> <code>Git</code> <code>AWS</code>
   </div>
 </div>
 
