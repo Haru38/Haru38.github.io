@@ -2,78 +2,68 @@
 ---
 @import "{{ site.theme }}";
 
-// --- ポップ & リッチな配色定義 ---
-$primary-glow: #00d4ff;
-$secondary-glow: #ff00de; // ポップさを出すためのアクセントピンク
-$bg-dark: #0f172a; // 深みのあるネイビーブラック
-$card-glass: rgba(255, 255, 255, 0.03);
+// --- ポップなカラーパレット ---
+$bg-color: #0f172a;
+$accent-blue: #00d4ff;
+$accent-pink: #ff00de;
+$text-bright: #f8fafc;
 
 body {
-  background-color: $bg-dark;
+  background-color: $bg-color;
   background-image: 
-    radial-gradient(at 0% 0%, rgba(0, 212, 255, 0.1) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, rgba(255, 0, 222, 0.05) 0px, transparent 50%);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  color: #e2e8f0;
+    radial-gradient(circle at 10% 20%, rgba(0, 212, 255, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(255, 0, 222, 0.1) 0%, transparent 40%);
+  color: $text-bright;
+  line-height: 1.6;
 }
 
-// --- リンクと装飾 ---
-a {
-  color: $primary-glow;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.3s;
-  &:hover {
-    color: #fff;
-    text-shadow: 0 0 10px $primary-glow;
+// ヘッダー（タイトル部分）をポップに
+header {
+  h1 {
+    font-size: 2.5rem;
+    background: linear-gradient(135deg, #fff 30%, $accent-blue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
+  p { color: $accent-blue; font-weight: bold; }
 }
 
-// --- カードの「リッチ」な装飾 ---
-// グラスモーフィズム（ガラス質感）に変更
+// 既存のカード（div）をよりぷっくりさせる
 div[style*="background"] {
-  background: $card-glass !important;
-  backdrop-filter: blur(10px); // 背後をぼかす
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1) !important;
-  border-radius: 20px !important; // より丸みを帯びさせてポップに
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 2px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 24px !important; // より丸く
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+
   &:hover {
-    transform: scale(1.02) translateY(-5px);
-    border-color: $primary-glow !important;
-    background: rgba(255, 255, 255, 0.06) !important;
+    transform: translateY(-8px) scale(1.01);
+    border-color: $accent-blue !important;
+    box-shadow: 0 15px 40px rgba(0, 212, 255, 0.2);
   }
 }
 
-// --- タイムラインのポップ化 ---
-div[style*="border-left"] {
-  border-left: 3px solid rgba(255, 255, 255, 0.1) !important;
-}
-
-div[style*="border-radius: 50%"] { // タイムラインのドット
-  background: linear-gradient(135deg, $primary-glow, $secondary-glow) !important;
-  box-shadow: 0 0 15px $primary-glow;
-  border: none !important;
-}
-
-// --- スキルタグのポップ化 ---
+// スキルタグをボタンのように
 code {
-  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(255, 0, 222, 0.1));
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 4px 10px;
-  border-radius: 8px;
-  font-size: 0.85em;
-  margin-right: 4px;
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: $accent-blue !important;
+  border: 1px solid $accent-blue !important;
+  padding: 5px 12px !important;
+  border-radius: 50px !important; // カプセル型
+  font-weight: bold;
 }
 
-// --- 見出しの装飾 ---
+// 見出しの装飾
 h2 {
-  font-size: 1.8em;
-  background: linear-gradient(to right, #fff, $primary-glow);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-top: 50px;
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  &::before {
+    content: "";
+    width: 8px;
+    height: 1.5em;
+    background: linear-gradient($accent-blue, $accent-pink);
+    border-radius: 4px;
+  }
 }

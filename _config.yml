@@ -1,5 +1,7 @@
-theme: jekyll-theme-midnight
+theme: jekyll-theme-minimal
 title: "Haruki Yamane"
-show_downloads: false
-description: "データサイエンティスト / ブロックチェーンエンジニア"
+description: "Data Scientist / Blockchain Engineer"
 logo: img/profile.jpg
+show_downloads: false
+github:
+  is_project_page: false
