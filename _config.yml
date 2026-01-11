@@ -1,11 +1,4 @@
-#theme: jekyll-theme-cayman
-#theme: jekyll-theme-midnight
-#theme: jekyll-theme-slate
-theme: jekyll-theme-minimal
-
+theme: jekyll-theme-midnight
 title: "Haruki Yamane"
 description: "データサイエンティスト / ブロックチェーンエンジニア"
 logo: img/profile.jpg
-
-twitter:
-  username: stkdev
