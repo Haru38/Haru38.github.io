@@ -3,8 +3,8 @@
   <img src="img/profile.jpg" width="120" style="border-radius: 50%; border: 2px solid #00d4ff; box-shadow: 0 0 15px rgba(0,212,255,0.3);">
   <div>
     <strong>データサイエンティスト / ブロックチェーンエンジニア</strong><br>
-    大学・大学院で情報工学を専攻し、現在はデータサイエンティストとして活動しております。<br>
-    <a href="https://github.com/Haru38">GitHub</a> / <a href="https://twitter.com/stkdev">Twitter</a>
+    大学・大学院で情報工学を専攻し、現在はデータサイエンティストとして活動中<br>
+    <a href="https://github.com/Haru38">GitHub</a>
   </div>
 </div>
 
@@ -100,7 +100,7 @@
   <img src="img/pnl.png" width="180" style="border-radius: 8px;">
   <div style="flex: 1; min-width: 250px;">
     <ul style="font-size: 0.95em; margin-top: 0; line-height: 1.8;">
-      <li>独自スマートコントラクトを構築し、Ethereumにてデプロイを行いました。</li>
+      <li>スマートコントラクトを構築、Ethereumへのデプロイを実施。</li>
       <li><a href="https://opensea.io/collection/primenumberloot">OpenSea Page</a></li>
       <li><a href="https://github.com/Haru38/PrimeNumberLoot">Github</a></li>
     </ul>
