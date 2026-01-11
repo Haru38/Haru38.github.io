@@ -15,12 +15,13 @@
     <div style="position: absolute; left: -27px; top: 5px; width: 12px; height: 12px; background: #00d4ff; border-radius: 50%;"></div>
     <span style="font-size: 0.85em; color: #888;">2023/10 - Present</span><br>
     <strong>LINEヤフー株式会社</strong><br>
-    データサイエンティストとして活動中
+    データサイエンティスト
   </div>
   <div style="margin-bottom: 20px; position: relative;">
     <div style="position: absolute; left: -27px; top: 5px; width: 12px; height: 12px; background: #00d4ff; border-radius: 50%;"></div>
     <span style="font-size: 0.85em; color: #888;">2023/4 - 2023/9</span><br>
     <strong>ヤフー株式会社</strong><br>
+    データサイエンティスト
   </div>
   <div style="margin-bottom: 20px; position: relative;">
     <div style="position: absolute; left: -27px; top: 5px; width: 12px; height: 12px; background: #444; border-radius: 50%;"></div>
