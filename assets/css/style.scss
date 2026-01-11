@@ -2,27 +2,10 @@
 ---
 @import "{{ site.theme }}";
 
-// --- 1. ヘッダー・フッターの完全非表示 ---
-header, footer {
-  display: none !important;
-}
-
-// --- 2. レイアウト微調整 (ヘッダーを消した分の余白) ---
-.wrapper {
-  margin: 40px auto !important;
-  max-width: 850px !important;
-  padding: 0 20px;
-}
-
-section {
-  width: 100% !important;
-  float: none !important;
-}
-
-// --- 3. ポップ & リッチな配色定義 ---
+// --- ポップ & リッチな配色定義 ---
 $primary-glow: #00d4ff;
-$secondary-glow: #ff00de;
-$bg-dark: #0f172a;
+$secondary-glow: #ff00de; // ポップさを出すためのアクセントピンク
+$bg-dark: #0f172a; // 深みのあるネイビーブラック
 $card-glass: rgba(255, 255, 255, 0.03);
 
 body {
@@ -34,7 +17,7 @@ body {
   color: #e2e8f0;
 }
 
-// --- 4. 装飾パーツ ---
+// --- リンクと装飾 ---
 a {
   color: $primary-glow;
   text-decoration: none;
@@ -46,13 +29,14 @@ a {
   }
 }
 
-// ガラス質感のカード
+// --- カードの「リッチ」な装飾 ---
+// グラスモーフィズム（ガラス質感）に変更
 div[style*="background"] {
   background: $card-glass !important;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); // 背後をぼかす
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1) !important;
-  border-radius: 20px !important;
+  border-radius: 20px !important; // より丸みを帯びさせてポップに
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   
@@ -63,14 +47,18 @@ div[style*="background"] {
   }
 }
 
-// タイムラインのドットをグラデーションに
-div[style*="border-radius: 50%"] {
+// --- タイムラインのポップ化 ---
+div[style*="border-left"] {
+  border-left: 3px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+div[style*="border-radius: 50%"] { // タイムラインのドット
   background: linear-gradient(135deg, $primary-glow, $secondary-glow) !important;
   box-shadow: 0 0 15px $primary-glow;
   border: none !important;
 }
 
-// スキルタグ
+// --- スキルタグのポップ化 ---
 code {
   background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(255, 0, 222, 0.1));
   color: #fff;
@@ -81,13 +69,11 @@ code {
   margin-right: 4px;
 }
 
-// 見出しのネオンエフェクト
+// --- 見出しの装飾 ---
 h2 {
   font-size: 1.8em;
   background: linear-gradient(to right, #fff, $primary-glow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 50px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  padding-bottom: 10px;
 }
