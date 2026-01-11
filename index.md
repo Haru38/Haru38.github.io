@@ -1,60 +1,72 @@
 # Haruki Yamane
-
-大学・大学院で情報工学を専攻し、現在はデータサイエンティストとして活動しております。
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <img src="img/profile.jpg" width="120" style="border-radius: 50%; border: 2px solid #00d4ff; box-shadow: 0 0 15px rgba(0,212,255,0.3);">
+  <div>
+    <strong>データサイエンティスト / ブロックチェーンエンジニア</strong><br>
+    東工大卒。情報工学を専攻し、現在はデータサイエンスとWeb3領域を軸に活動中。<br>
+    <a href="https://github.com/Haru38">GitHub</a> / <a href="https://twitter.com/stkdev">Twitter</a>
+  </div>
+</div>
 
 ---
 
-## 🏛 Career
-
-* **2017/4 ~ 2021/3**: 東京工業大学 情報理工学院 情報工学系
-* **2021/4 ~ 2023/3**: 東京工業大学大学院 情報理工学院 情報工学系 知能情報コース
-* **2023/4 ~**: 都内某企業にてデータサイエンティストとして活動
+## 🛠 Skills
+| Category | Technologies |
+|:---|:---|
+| **Data Science** | `Python` `PyTorch` `Scikit-learn` `Pandas` `R` `SQL` |
+| **Blockchain** | `Solidity` `Hardhat` `Ethers.js` `ERC721/20` `OpenZeppelin` |
+| **Other** | `Docker` `Git` `AWS` `Linux` |
 
 ---
 
 ## 🔬 Research
-
-### Prediction of class A GPCRs and olfactory receptors activity
-![helixencoder](img/he.png)
-
-Olfactory receptors are a type of G protein-coupled receptor (GPCR) that is expressed in the olfactory epithelium and closely associated with the perception of odors. Discovering ligands for olfactory receptors has contributed to unraveling the mechanisms of olfactory perception and has potential implications for drug discovery targeting these receptors. Biological experiments and computational studies for activity prediction have been conducted thus far. To address the challenge of insufficient data for olfactory receptors, this study focused on class A GPCRs and developed a specialized protein sequence encoder called the Helix encoder. Pre-training of the activity prediction model was performed using data from class A GPCRs, followed by fine-tuning using olfactory receptor data, with the aim of improving the accuracy of activity prediction.
-
-### Publications
-1. Haruki Yamane and Takashi Ishida. [Helix encoder: a compound-protein interaction prediction model specifically designed for class A GPCRs](https://doi.org/10.3389/fbinf.2023.1193025). Frontiers in Bioinformatics, Vol. 3, May 2023.
-2. Haruki Yamane and Takashi Ishida. [Prediction of class A GPCR-Compound interactions by deep learning focusing on ligand binding site protein sequences](https://cbi-society.org/taikai/taikai22/poster_oral/p_abstract_cbi2022.pdf#page=51). [Chem-Bio Informatics Society(CBI) Annual Meeting 2022, Oct](https://cbi-society.org/taikai/taikai22/index.html).
-3. 山根 永暉, 石田 貴士. [クラスA Gタンパク質共役受容体専用エンコーダを用いたタンパク質ー化合物相互作用予測](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=216913&item_no=1&page_id=13&block_id=8). [第69回バイオ情報学(SIGBIO)研究会](https://www.ipsj.or.jp/kenkyukai/event/bio69.html).
+<div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 20px;">
+  <h3>Prediction of class A GPCRs and olfactory receptors activity</h3>
+  <img src="img/he.png" width="100%" style="border-radius: 8px; margin: 10px 0;">
+  <p style="font-size: 0.9em; line-height: 1.6;">
+    クラスA GPCRおよび嗅覚受容体の活性予測モデル「Helix encoder」を開発。専門的なタンパク質配列エンコーダを構築し、データの少ない嗅覚受容体への転移学習において精度向上を達成しました。
+  </p>
+  <h4>Publications</h4>
+  <ul style="font-size: 0.85em;">
+    <li><b>Haruki Yamane</b> et al. <a href="https://doi.org/10.3389/fbinf.2023.1193025">Frontiers in Bioinformatics, 2023</a></li>
+    <li>CBI Annual Meeting 2022 / 第69回バイオ情報学(SIGBIO)研究会</li>
+  </ul>
+</div>
 
 ---
 
 ## 💼 Works
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;">
 
-### [株式会社サイシード](https://sciseed.jp/)
-* **職種**: インターン/エンジニア
-* **期間**: 2019/4 ~ 2021/3
-* **内容**: 電光掲示板に表示される3Dキャラクターを用いた警備システムの開発プロジェクトに参画。物体認識及びトラッキングモデルの開発に従事。
+  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; background: rgba(255,255,255,0.02);">
+    <h4 style="margin-top:0;">🤖 株式会社サイシード</h4>
+    <small>2019/4 ~ 2021/3 | エンジニア</small>
+    <p style="font-size: 0.85em;">3Dキャラクターを用いた警備システムの開発。物体認識及びトラッキングモデルの開発に従事。</p>
+  </div>
 
-### [株式会社リードエッジコンサルティング](https://leadedge-c.com/)
-* **職種**: インターン/ブロックチェーンエンジニア
-* **期間**: 2021/9 ~ 2022/2
-* **内容**: NFTのサブスクサービスにおけるスマートコントラクトの開発や、MaticのFaucetを含むweb3ツールの開発に従事。
+  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; background: rgba(255,255,255,0.02);">
+    <h4 style="margin-top:0;">⛓️ プラチナエッグ</h4>
+    <small>2022/6 ~ 2023/3 | BCエンジニア</small>
+    <p style="font-size: 0.85em;">複数のブロックチェーンゲーム開発に参画。ERC721/20を中心にスマートコントラクトを開発。</p>
+  </div>
 
-### ヤフー株式会社
-* **職種**: インターン/データサイエンティスト
-* **期間**: 2021/10
-* **内容**: 検索システムにおけるサジェスト機能に使用されるリランキングモデルの開発に従事。
+  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 15px; border-radius: 10px; background: rgba(255,255,255,0.02);">
+    <h4 style="margin-top:0;">🔍 ヤフー株式会社</h4>
+    <small>2021/10 | データサイエンティスト</small>
+    <p style="font-size: 0.85em;">検索システムのサジェスト機能におけるリランキングモデルの開発に従事。</p>
+  </div>
 
-### [株式会社プラチナエッグ](https://www.platinum-egg.com/)
-* **職種**: インターン/ブロックチェーンエンジニア
-* **期間**: 2022/6 ~ 2023/3
-* **内容**: 複数のブロックチェーンゲーム開発プロジェクトに参画。ERC721、ERC20を中心にスマートコントラクトの開発に従事。
+</div>
 
 ---
 
 ## 🚀 Development
-
-### PrimeNumberLoot
-![pnl](img/pnl.png)
-
-* 独自スマートコントラクトを構築し、Ethereumにてデプロイを行いました。
-* [OpenSea Page](https://opensea.io/collection/primenumberloot)
-* [Github](https://github.com/Haru38/PrimeNumberLoot)
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px;">
+  <img src="img/pnl.png" width="180" style="border-radius: 8px;">
+  <div style="flex: 1; min-width: 250px;">
+    <h3 style="margin-top:0;">PrimeNumberLoot</h3>
+    <p style="font-size: 0.9em;">独自スマートコントラクトを構築し、Ethereumにてデプロイを行いました。素数をコンセプトとしたNFTプロジェクトです。</p>
+    <a href="https://opensea.io/collection/primenumberloot" style="margin-right: 15px;">OpenSea</a>
+    <a href="https://github.com/Haru38/PrimeNumberLoot">GitHub</a>
+  </div>
+</div>
