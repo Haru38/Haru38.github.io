@@ -18,11 +18,20 @@
 ---
 
 ## 🛠 Skills
-| Category | Technologies |
-| :--- | :--- |
-| **Data Science** | `Python` `PyTorch` `Scikit-learn` `Pandas` `R` `SQL` |
-| **Blockchain** | `Solidity` `Hardhat` `Ethers.js` `ERC721/20` `OpenZeppelin` |
-| **Other** | `Docker` `Git` `AWS` `Linux` |
+<div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 20px;">
+  <div style="margin-bottom: 10px;">
+    <strong style="color: #00d4ff;">Data Science:</strong><br>
+    <code>Python</code> <code>PyTorch</code> <code>Scikit-learn</code> <code>Pandas</code> <code>R</code> <code>SQL</code>
+  </div>
+  <div style="margin-bottom: 10px;">
+    <strong style="color: #00d4ff;">Blockchain:</strong><br>
+    <code>Solidity</code> <code>Hardhat</code> <code>Ethers.js</code> <code>ERC721/20</code> <code>OpenZeppelin</code>
+  </div>
+  <div>
+    <strong style="color: #00d4ff;">Other:</strong><br>
+    <code>Docker</code> <code>Git</code> <code>AWS</code> <code>Linux</code>
+  </div>
+</div>
 
 ---
 
@@ -72,4 +81,20 @@
     <p style="font-size: 0.9em;">複数のブロックチェーンゲーム開発プロジェクトに参画。ERC721、ERC20を中心にスマートコントラクトの開発に従事。</p>
   </div>
 
+</div>
+
+---
+
+## 🚀 Development
+
+### PrimeNumberLoot
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+  <img src="img/pnl.png" width="180" style="border-radius: 8px;">
+  <div style="flex: 1; min-width: 250px;">
+    <ul style="font-size: 0.95em; margin-top: 0; line-height: 1.8;">
+      <li>独自スマートコントラクトを構築し、Ethereumにてデプロイを行いました。</li>
+      <li><a href="https://opensea.io/collection/primenumberloot">OpenSea Page</a></li>
+      <li><a href="https://github.com/Haru38/PrimeNumberLoot">Github</a></li>
+    </ul>
+  </div>
 </div>
