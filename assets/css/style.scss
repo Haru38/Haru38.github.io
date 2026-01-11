@@ -2,75 +2,78 @@
 ---
 @import "{{ site.theme }}";
 
-// --- 「明るめダーク」配色定義 ---
+// --- ポップ & リッチな配色定義 ---
 $primary-glow: #00d4ff;
-$bg-light-dark: #1e293b; // 少し明るめのスレートグレー
-$card-inner: rgba(255, 255, 255, 0.05);
-$text-sub: #cbd5e1;
-
-header { display: none !important; } // 緑ボタンを非表示
+$secondary-glow: #ff00de; // ポップさを出すためのアクセントピンク
+$bg-dark: #0f172a; // 深みのあるネイビーブラック
+$card-glass: rgba(255, 255, 255, 0.03);
 
 body {
-  background-color: $bg-light-dark;
+  background-color: $bg-dark;
   background-image: 
-    radial-gradient(at 0% 0%, rgba(0, 212, 255, 0.1) 0px, transparent 40%),
-    radial-gradient(at 100% 100%, rgba(0, 212, 255, 0.05) 0px, transparent 40%);
+    radial-gradient(at 0% 0%, rgba(0, 212, 255, 0.1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(255, 0, 222, 0.05) 0px, transparent 50%);
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  color: #f1f5f9; // 文字を少しだけ明るい白に
+  color: #e2e8f0;
 }
 
-// ナビゲーション（IDリンク用）
-.nav-bar {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: rgba(30, 41, 59, 0.85); // 背景色に合わせて調整
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 12px 0;
-  ul { display: flex; justify-content: center; gap: 25px; list-style: none; margin: 0; padding: 0; }
-  a {
-    color: $text-sub;
-    font-size: 0.9em;
-    font-weight: 600;
-    &:hover { color: $primary-glow; text-shadow: 0 0 8px $primary-glow; }
+// --- リンクと装飾 ---
+a {
+  color: $primary-glow;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  &:hover {
+    color: #fff;
+    text-shadow: 0 0 10px $primary-glow;
   }
 }
 
-// --- カードの質感をよりポップ＆リッチに ---
+// --- カードの「リッチ」な装飾 ---
+// グラスモーフィズム（ガラス質感）に変更
 div[style*="background"] {
-  background: $card-inner !important;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.15) !important; // 枠を少し強調して明るさを出す
-  border-radius: 20px !important;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: $card-glass !important;
+  backdrop-filter: blur(10px); // 背後をぼかす
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 20px !important; // より丸みを帯びさせてポップに
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   
   &:hover {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.08) !important;
+    transform: scale(1.02) translateY(-5px);
     border-color: $primary-glow !important;
-    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 0.06) !important;
   }
 }
 
-// タイムライン装飾
-div[style*="border-left"] { border-left: 2px solid rgba(255, 255, 255, 0.2) !important; }
-
-// 見出し
-h2 {
-  font-size: 1.8em;
-  background: linear-gradient(to right, #ffffff, $primary-glow);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border-bottom: none !important;
-  margin-top: 60px;
+// --- タイムラインのポップ化 ---
+div[style*="border-left"] {
+  border-left: 3px solid rgba(255, 255, 255, 0.1) !important;
 }
 
+div[style*="border-radius: 50%"] { // タイムラインのドット
+  background: linear-gradient(135deg, $primary-glow, $secondary-glow) !important;
+  box-shadow: 0 0 15px $primary-glow;
+  border: none !important;
+}
+
+// --- スキルタグのポップ化 ---
 code {
-  background: rgba(0, 212, 255, 0.15);
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(255, 0, 222, 0.1));
   color: #fff;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 6px;
-  padding: 3px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.85em;
+  margin-right: 4px;
+}
+
+// --- 見出しの装飾 ---
+h2 {
+  font-size: 1.8em;
+  background: linear-gradient(to right, #fff, $primary-glow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 50px;
 }
