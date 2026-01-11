@@ -37,7 +37,7 @@
 <div style="background: rgba(255,255,255,0.03); backdrop-filter: blur(10px); padding: 20px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 20px;">
   <div style="margin-bottom: 15px;">
     <strong style="color: #00d4ff; font-size: 1.1em;">📊 Data Science</strong><br>
-    <code>Python</code> <code>PyTorch</code> <code>TensorFlow</code> <code>Keras</code> <code>PySpark</code> <code>Trino</code> <code>Grid (HDFS)</code> <code>Scikit-learn</code>
+    <code>Python</code> <code>PyTorch</code> <code>TensorFlow</code> <code>Keras</code> <code>PySpark</code> <code>Trino</code> <code>HDFS</code> <code>Scikit-learn</code>
   </div>
   <div style="margin-bottom: 15px;">
     <strong style="color: #00d4ff; font-size: 1.1em;">⛓️ Blockchain</strong><br>
