@@ -55,30 +55,38 @@
 ---
 
 ## 💼 Works
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(45%, 1fr)); gap: 20px;">
 
-  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02);">
-    <h4 style="margin-top:0;"><a href="https://sciseed.jp/">株式会社サイシード</a></h4>
-    <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/エンジニア | <b>期間:</b> 2019/4 ~ 2021/3</p>
-    <p style="font-size: 0.9em;">電光掲示板に表示される3Dキャラクターを用いた警備システムの開発プロジェクトに参画。物体認識及びトラッキングモデルの開発に従事。</p>
+  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02); display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <h4 style="margin-top:0;"><a href="https://sciseed.jp/">株式会社サイシード</a></h4>
+      <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/エンジニア | <b>期間:</b> 2019/4 ~ 2021/3</p>
+      <p style="font-size: 0.9em;">電光掲示板に表示される3Dキャラクターを用いた警備システムの開発プロジェクトに参画。物体認識及びトラッキングモデルの開発に従事。</p>
+    </div>
   </div>
 
-  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02);">
-    <h4 style="margin-top:0;"><a href="https://leadedge-c.com/">株式会社リードエッジコンサルティング</a></h4>
-    <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/ブロックチェーンエンジニア | <b>期間:</b> 2021/9 ~ 2022/2</p>
-    <p style="font-size: 0.9em;">NFTのサブスクサービスにおけるスマートコントラクトの開発や、MaticのFaucetを含むweb3ツールの開発に従事。</p>
+  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02); display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <h4 style="margin-top:0;"><a href="https://leadedge-c.com/">株式会社リードエッジコンサルティング</a></h4>
+      <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/ブロックチェーンエンジニア | <b>期間:</b> 2021/9 ~ 2022/2</p>
+      <p style="font-size: 0.9em;">NFTのサブスクサービスにおけるスマートコントラクトの開発や、MaticのFaucetを含むweb3ツールの開発に従事。</p>
+    </div>
   </div>
 
-  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02);">
-    <h4 style="margin-top:0;">ヤフー株式会社</h4>
-    <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/データサイエンティスト | <b>期間:</b> 2021/10</p>
-    <p style="font-size: 0.9em;">検索システムにおけるサジェスト機能に使用されるリランキングモデルの開発に従事。</p>
+  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02); display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <h4 style="margin-top:0;">ヤフー株式会社</h4>
+      <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/データサイエンティスト | <b>期間:</b> 2021/10</p>
+      <p style="font-size: 0.9em;">検索システムにおけるサジェスト機能に使用されるリランキングモデルの開発に従事。</p>
+    </div>
   </div>
 
-  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02);">
-    <h4 style="margin-top:0;"><a href="https://www.platinum-egg.com/">株式会社プラチナエッグ</a></h4>
-    <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/ブロックチェーンエンジニア | <b>期間:</b> 2022/6 ~ 2023/3</p>
-    <p style="font-size: 0.9em;">複数のブロックチェーンゲーム開発プロジェクトに参画。ERC721、ERC20を中心にスマートコントラクトの開発に従事。</p>
+  <div style="border: 1px solid rgba(255,255,255,0.1); padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.02); display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <h4 style="margin-top:0;"><a href="https://www.platinum-egg.com/">株式会社プラチナエッグ</a></h4>
+      <p style="font-size: 0.85em; margin-bottom: 5px;"><b>職種:</b> インターン/ブロックチェーンエンジニア | <b>期間:</b> 2022/6 ~ 2023/3</p>
+      <p style="font-size: 0.9em;">複数のブロックチェーンゲーム開発プロジェクトに参画。ERC721、ERC20を中心にスマートコントラクトの開発に従事。</p>
+    </div>
   </div>
 
 </div>
