@@ -2,82 +2,78 @@
 ---
 @import "{{ site.theme }}";
 
-// --- カラー定義（緑を排除） ---
-$primary-blue: #00d4ff;
-$accent-purple: #7000ff;
-$bg-dark: #020617;
-$text-main: #f8fafc;
+// --- ポップ & リッチな配色定義 ---
+$primary-glow: #00d4ff;
+$secondary-glow: #ff00de; // ポップさを出すためのアクセントピンク
+$bg-dark: #0f172a; // 深みのあるネイビーブラック
+$card-glass: rgba(255, 255, 255, 0.03);
 
 body {
-  background: $bg-dark;
-  color: $text-main;
-  font-family: 'Inter', sans-serif;
+  background-color: $bg-dark;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(0, 212, 255, 0.1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(255, 0, 222, 0.05) 0px, transparent 50%);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #e2e8f0;
 }
 
-// 標準ヘッダー（View on GitHubボタン等）を強制非表示
-header {
-  display: none !important; 
-}
-
-// --- カスタムナビゲーションヘッダー ---
-.custom-nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: rgba(2, 6, 23, 0.8);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 15px 0;
-  margin-bottom: 40px;
-  
-  ul {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  a {
-    color: #94a3b8;
-    font-weight: 500;
-    font-size: 0.9em;
-    transition: 0.3s;
-    &:hover {
-      color: $primary-blue;
-      text-shadow: 0 0 8px $primary-blue;
-    }
+// --- リンクと装飾 ---
+a {
+  color: $primary-glow;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  &:hover {
+    color: #fff;
+    text-shadow: 0 0 10px $primary-glow;
   }
 }
 
-// --- コンテンツカードのリッチ化 ---
+// --- カードの「リッチ」な装飾 ---
+// グラスモーフィズム（ガラス質感）に変更
 div[style*="background"] {
-  background: rgba(255, 255, 255, 0.03) !important;
+  background: $card-glass !important;
+  backdrop-filter: blur(10px); // 背後をぼかす
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1) !important;
-  border-radius: 16px !important;
-  backdrop-filter: blur(10px);
-  transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 20px !important; // より丸みを帯びさせてポップに
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   
   &:hover {
-    transform: translateY(-5px);
-    border-color: $primary-blue !important;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02) translateY(-5px);
+    border-color: $primary-glow !important;
+    background: rgba(255, 255, 255, 0.06) !important;
   }
 }
 
-// スキルタグ
-code {
-  background: rgba(0, 212, 255, 0.1);
-  color: $primary-blue;
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  border-radius: 6px;
+// --- タイムラインのポップ化 ---
+div[style*="border-left"] {
+  border-left: 3px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-// 見出しのグラデーション
+div[style*="border-radius: 50%"] { // タイムラインのドット
+  background: linear-gradient(135deg, $primary-glow, $secondary-glow) !important;
+  box-shadow: 0 0 15px $primary-glow;
+  border: none !important;
+}
+
+// --- スキルタグのポップ化 ---
+code {
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(255, 0, 222, 0.1));
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.85em;
+  margin-right: 4px;
+}
+
+// --- 見出しの装飾 ---
 h2 {
-  background: linear-gradient(to right, #fff, $primary-blue);
+  font-size: 1.8em;
+  background: linear-gradient(to right, #fff, $primary-glow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: none !important;
+  margin-top: 50px;
 }
