@@ -1,8 +1,8 @@
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
   <img src="img/profile.jpg" width="120" style="border-radius: 50%; border: 2px solid #00d4ff; box-shadow: 0 0 15px rgba(0,212,255,0.3);">
   <div>
-    <strong>データサイエンティスト / ブロックチェーンエンジニア</strong><br>
-    大学・大学院で情報工学を専攻し、現在はデータサイエンティストとして活動しております。<br>
+    <strong>データサイエンティスト</strong><br>
+    大学・大学院で情報工学を専攻し、現在はデータサイエンティストとして活動しております。学生の頃はインターンでブロックチェーンエンジニアとしても活動していました。<br>
     <a href="https://github.com/Haru38">GitHub</a>
   </div>
 </div>
